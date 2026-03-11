@@ -12,8 +12,16 @@ body, header, nav, main, footer, img, h1, h2, h3 {
 }
 
 /* Style rules for body and img */
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    color: linear-gradient(#04415C, #57BAC7, #A9DEDE);
+    background-color: blue;
+    background-image: linear-gradient(#04415C, #57BAC7, #A9DEDE);
+    background-attachment: fixed;
 }
 
 img {
@@ -37,6 +45,10 @@ img .round, img .corner {
 header {
     background-color: #A9DEDE;
     padding: 20px 0;
+}
+
+h1, h2, h3 {
+    color: black;
 }
 
 nav ul {
