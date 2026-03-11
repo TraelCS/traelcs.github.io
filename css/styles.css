@@ -33,6 +33,7 @@ img {
     display: block;
     width: 500px;
     height: 250px;
+    margin: 15px auto;
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid white;
