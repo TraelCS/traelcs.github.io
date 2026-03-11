@@ -41,6 +41,14 @@ img .round, img .corner {
     border: 2px solid white;
 }
 
+.corner {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: white;
+    border: 2px solid white;
+}
+
 /* Style rules for text */
 header {
     background-color: #A9DEDE;
