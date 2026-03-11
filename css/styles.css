@@ -29,7 +29,7 @@ img {
     display: block;
 }
 
-img .round, img .corner {
+.round, .corner {
     display: block;
     width: 250px;
     height: 250px;
@@ -121,7 +121,7 @@ footer {
         gap: 20px;
     }
 
-    img {
+    main img {
         width: 80%;
     }
 }
@@ -142,9 +142,9 @@ footer {
 }
 
 /* Media Query for Large Desktop Viewport */
-@media screen and (min-width: 1201), print {
+@media screen and (min-width: 1201px), print {
     body {
-        font-size: 20;
+        font-size: 20px;
     }
 
     nav ul {
