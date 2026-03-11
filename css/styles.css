@@ -80,6 +80,12 @@ h1, h2, h3 {
     text-align: center;
 }
 
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 /* Style rules for nav */
 nav ul {
     list-style: none;
