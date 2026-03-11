@@ -26,6 +26,13 @@ img .round, img .corner {
     border: 2px solid white;
 }
 
+.image {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
 /* Style rules for text */
 header {
     background-color: #A9DEDE;
