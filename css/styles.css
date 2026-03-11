@@ -30,6 +30,10 @@ img {
 }
 
 img .round, img .corner {
+    display: block;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
     border-radius: 10px;
     border: 2px solid white;
 }
