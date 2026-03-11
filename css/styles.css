@@ -36,7 +36,10 @@ img .round, img .corner {
 
 .image {
     display: block;
-    max-width: 100%;
+    width: 250px;
+    height: 250px;
+    margin: 15px auto;
+    object-fit: cover;
     border-radius: 10px;
     border: 2px solid white;
 }
@@ -45,7 +48,7 @@ img .round, img .corner {
     width: 250px;
     height: 250px;
     object-fit: cover;
-    border-radius: white;
+    border-radius: 10px;
     border: 2px solid white;
 }
 
