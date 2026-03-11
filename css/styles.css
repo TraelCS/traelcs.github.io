@@ -31,35 +31,18 @@ img {
 
 .round {
     display: block;
-    width: 350px;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 10px;
-    border: 2px solid white;
-}
-
-.corner {
-    display: block;
-    width: 250px;
+    width: 500px;
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid white;
 }
 
-.image {
+.image, .corner {
     display: block;
     width: 250px;
     height: 250px;
     margin: 15px auto;
-    object-fit: cover;
-    border-radius: 10px;
-    border: 2px solid white;
-}
-
-.corner {
-    width: 250px;
-    height: 250px;
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid white;
@@ -109,7 +92,7 @@ nav a:hover {
 
 /* Style rules for main */
 main {
-    text-align: left;
+    text-align: center;
 }
 
 .home {
@@ -136,9 +119,6 @@ footer {
         gap: 20px;
     }
 
-    main img {
-        width: 80%;
-    }
 }
 
 /* Media Query for Desktop Viewport */
@@ -146,19 +126,11 @@ footer {
     body {
         font-size: 18px;
     }
-
-    img {
-        width: 90%;
-    }
 }
 
 /* Media Query for Large Desktop Viewport */
 @media screen and (min-width: 1201px), print {
     body {
         font-size: 20px;
-    }
-
-    img {
-        width: 100%;
     }
 }
