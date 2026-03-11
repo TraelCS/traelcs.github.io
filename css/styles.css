@@ -61,6 +61,8 @@ img {
 
 .image {
     display: block;
+    width: 250px;
+    height: 250px;
     margin: 15px auto;
     object-fit: cover;
     border-radius: 10px;
