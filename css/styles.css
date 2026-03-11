@@ -56,7 +56,7 @@ body {
 
 .homeimg {
     display: block;
-    width: 250px;
+    width: 500px;
     height: 250px;
     margin: 15px auto;
     object-fit: cover;
