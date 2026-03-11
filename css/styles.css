@@ -104,7 +104,12 @@ footer {
     background-color: #A9DEDE;
     color: white;
     text-decoration: none;
-    text-align: center;
+}
+
+.foot {
+    display: flex;
+    align-items: flex-end;
+    height: 100px;
 }
 
 /* Media Query for Tablet Viewport */
