@@ -24,10 +24,6 @@ body {
     background-attachment: fixed;
 }
 
-img {
-    display: block;
-}
-
 .round {
     display: block;
     width: 500px;
