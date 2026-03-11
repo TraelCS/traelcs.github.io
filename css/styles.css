@@ -39,6 +39,16 @@ img {
     border: 2px solid white;
 }
 
+.line {
+    display: block;
+    width: 500px;
+    height: 500px;
+    margin: 15px auto;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
 .image, .corner {
     display: block;
     width: 250px;
