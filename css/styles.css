@@ -49,7 +49,17 @@ img {
     border: 2px solid white;
 }
 
-.image, .corner {
+.corner {
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: 15px auto;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.image {
     display: block;
     width: 250px;
     height: 250px;
