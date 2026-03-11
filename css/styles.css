@@ -106,12 +106,6 @@ footer {
     text-decoration: none;
 }
 
-.foot {
-    display: flex;
-    align-items: flex-end;
-    height: 100px;
-}
-
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 600px), print {
     body {
