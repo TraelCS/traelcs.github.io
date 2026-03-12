@@ -95,18 +95,19 @@ main {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin: 0;
+    justify-content: space-evenly;
     padding: 0;
 }
 
 nav a {
+    display: block;
+    flex: 1;
+    text-align: center;
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 16px;
-    padding: 5px 10px;
+    font-size: 20px;
+    padding: 12px 0px;
 }
 
 nav a:hover {
