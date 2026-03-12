@@ -71,9 +71,10 @@ header {
     padding: 20px 0;
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
     color: white;
     text-align: center;
+    -webkit-text-stroke: 1px black;
 }
 
 .font {
