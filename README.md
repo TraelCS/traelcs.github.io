@@ -13,11 +13,19 @@ This project is a website created to show the skills I've learned in my Web Tech
 - Navigation menu
 - Pages styled with CSS
 - Images
+- Bootstrap Framework
+- Navigation Bar
+- Tables
+- Interactive Form
+- Embedded Media
+- JavaScript Interaction
 
 ### Pages Included
 - Home
 - Types of Fish
 - Types of Baits
+- Types of Rods
+- Types of Lines
 
 ### Technology Used
 - HTML
