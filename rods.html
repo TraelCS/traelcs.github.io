@@ -10,45 +10,70 @@
     <head>
         <title>Fishing Gallery: Rods</title>
         <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <header>
-            <h1>Different Types of Rods</h1>
-        </header>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home Page</a></li>
-                <li><a href="baits.html">Different Types of Baits</a></li>
-                <li><a href="fish.html">Different Types of Fish</a></li>
-                <li><a href="rods.html">Different Types of Rods</a></li>
-                <li><a href="lines.html">Different Fishing Lines</a></li>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Fishing Gallery</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">    
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home Page</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="baits.html">Different Types of Baits</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="fish.html">Different Types of Fish</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="rods.html">Different Types of Rods</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="lines.html">Different Fishing Lines</a>
+                </li>
             </ul>
-        </nav>
-
-        <main>
-            
-            <div class="color">
-                
-                <div class="font">
-                    
-                    <img src="images/spinning.jpg" alt="spinning rod casted" class="line">
-                    <h3>Spinning Rod</h3>
-                    <p>A spinning rod is a versatile fishing rod designed with line guides on the bottom and a reel seat meant for a spinning reel, making it ideal for casting light lures and bait. It features large guides, allowing fishing line to move freely and reduce tangles, making it highly suitable for beginners, finesse fishing, and various fishing conditions.</p>
-    
-                    <img src="images/casting.jpg" alt="casting rod casted" class="line">
-                    <h3>Casting Rod</h3>
-                    <p>A casting rod is a type of fishing rod designed to be used with a baitcasting or spincasting reel mounted on top, featuring small line guides and a "trigger" on the handle for increased control and accuracy. They are typically stiffer, more powerful, and ideal for heavy lures, targeting larger fish, or precise, technical casting techniques.</p>
-    
-                    <img src="images/surf.jpg" alt="surf rod mid-cast" class="round">
-                    <h3>Surf Rod</h3>
-                    <p>A surf rod is a long, durable fishing rod, typically 9 to 15 feet in length, engineered for casting heavy lures or bait long distances from the beach beyond breaking waves. Built with strong materials like graphite or composite, they feature medium-to-heavy power to fight large fish and withstand harsh saltwater.</p>
-    
-                    <img src="images/fly.jpg" alt="fly rod casted" class="round">
-                    <h3>Fly Rod</h3>
-                    <p>A fly rod is a specialized, flexible fishing rod used to cast nearly weightless artificial flies by utilizing the weight of a specialized fly line rather than the weight of a lure. They are designed for delicate, accurate, and stealthy presentations of flies to fish in various water conditions, ranging from trout streams to saltwater.</p>
             </div>
+            </div>
+        </nav>
+        
+        <main class="color">
+            <div class="container mt-4">
+                <h1>Different Types of Rods</h1>
+                <div id="font">
+
+                    <section>
+                        <img src="images/spinning.jpg" alt="spinning rod casted" class="line">
+                        <h3>Spinning Rod</h3>
+                        <p>A spinning rod is a versatile fishing rod designed with line guides on the bottom and a reel seat meant for a spinning reel, making it ideal for casting light lures and bait. It features large guides, allowing fishing line to move freely and reduce tangles, making it highly suitable for beginners, finesse fishing, and various fishing conditions.</p>
+                    </section>
+
+                    <section>
+                        <img src="images/casting.jpg" alt="casting rod casted" class="line">
+                        <h3>Casting Rod</h3>
+                        <p>A casting rod is a type of fishing rod designed to be used with a baitcasting or spincasting reel mounted on top, featuring small line guides and a "trigger" on the handle for increased control and accuracy. They are typically stiffer, more powerful, and ideal for heavy lures, targeting larger fish, or precise, technical casting techniques.</p>
+                    </section>
+
+                    <section>
+                        <img src="images/surf.jpg" alt="surf rod mid-cast" class="round">
+                        <h3>Surf Rod</h3>
+                        <p>A surf rod is a long, durable fishing rod, typically 9 to 15 feet in length, engineered for casting heavy lures or bait long distances from the beach beyond breaking waves. Built with strong materials like graphite or composite, they feature medium-to-heavy power to fight large fish and withstand harsh saltwater.</p>
+                    </section>
+
+                    <section>
+                        <img src="images/fly.jpg" alt="fly rod casted" class="round">
+                        <h3>Fly Rod</h3>
+                        <p>A fly rod is a specialized, flexible fishing rod used to cast nearly weightless artificial flies by utilizing the weight of a specialized fly line rather than the weight of a lure. They are designed for delicate, accurate, and stealthy presentations of flies to fish in various water conditions, ranging from trout streams to saltwater.</p>
+                    </section>
+                </div>
                 </div>
             
         </main>
@@ -57,6 +82,7 @@
             <p>Student Username: TraelCS</p>
             <p>&copy; Copyright 2026. All Rights Reserved.</p>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </body>
     
 </html>
