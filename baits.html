@@ -10,52 +10,78 @@
     <head>
         <title>Fishing Gallery: Baits</title>
         <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <header>
-            <h1>Different Types of Bait</h1>
-        </header>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home Page</a></li>
-                <li><a href="baits.html">Different Types of Baits</a></li>
-                <li><a href="fish.html">Different Types of Fish</a></li>
-                <li><a href="rods.html">Different Types of Rods</a></li>
-                <li><a href="lines.html">Different Fishing Lines</a></li>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Fishing Gallery</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">    
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home Page</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="baits.html">Different Types of Baits</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="fish.html">Different Types of Fish</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="rods.html">Different Types of Rods</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="lines.html">Different Fishing Lines</a>
+                </li>
             </ul>
+            </div>
+            </div>
         </nav>
+        
+        <main class="color">
+            <div class="container mt-4">
+                <h1>Different Types of Bait</h1>
+                    <div id="font">
 
-        <main>
-            <div class="color">
-                    <div class="font">
+                        <section>
+                            <img src="images/squid.jpg" alt="squid on a plate" class="corner">
+                            <h3>Squid</h3>
+                            <p>Oftentimes called Ika, squid is an excellent bait you can throw on your hook that predatory fish just love. Fish are attracted to squid because it's a natural high protein food source, found in abundance all over the world. When put on a hook and rehydrated, its lifelike movements and strong odor in the water make it parituclary appetising.</p>
+                        </section>
 
-                        <img src="images/squid.jpg" alt="squid on a plate" class="corner">
-                        <h3>Squid</h3>
-                        <p>Oftentimes called Ika, squid is an excellent bait you can throw on your hook that predatory fish just love. Fish are attracted to squid because it's a natural high protein food source, found in abundance all over the world. When put on a hook and rehydrated, its lifelike movements and strong odor in the water make it parituclary appetising.</p>
-    
-                        <img src="images/shrimp.jpg" alt="plate of shrimp" class="corner">
-                        <h3>Shrimp</h3>
-                        <p>Some people's favorite sea foods are an excellent bait to use when fishing for reef fish. Due to shrimp being high in protein and slow moving targets, they are irresistable prey to opportunistic fish.</p>
-    
-                        <img src="images/bread.jpg" alt="white bread" class="corner">
-                        <h3>White Bread</h3>
-                        <p>Believe it or not, a lot of fish will go after white bread on a hook, especially the opportunistic ones. Although not the first thought that comes to mind when you hear bait, white bread offers fish with bright-colored easy to consume meal.</p>
-     
-                        <img src="images/limu.jpg" alt="seaweed on the shore" class="corner">
-                        <h3>Limu</h3>
-                        <p>Limu, the Hawaiian word for seaweed, provide herbivorous fish with a nutrient-dense meal. Some fish such as Nenue, also called the gray chub, love the taste of limu over proteins like ika or shrimp.</p>
-            </div>
+                        <section>                       
+                            <img src="images/shrimp.jpg" alt="plate of shrimp" class="corner">
+                            <h3>Shrimp</h3>
+                            <p>Some people's favorite sea foods are an excellent bait to use when fishing for reef fish. Due to shrimp being high in protein and slow moving targets, they are irresistable prey to opportunistic fish.</p>
+                        </section>
+                        
+                        <section>      
+                            <img src="images/bread.jpg" alt="white bread" class="corner">
+                            <h3>White Bread</h3>
+                            <p>Believe it or not, a lot of fish will go after white bread on a hook, especially the opportunistic ones. Although not the first thought that comes to mind when you hear bait, white bread offers fish with bright-colored easy to consume meal.</p>
+                        </section>
+
+                        <section>
+                            <img src="images/limu.jpg" alt="seaweed on the shore" class="corner">
+                            <h3>Limu</h3>
+                            <p>Limu, the Hawaiian word for seaweed, provide herbivorous fish with a nutrient-dense meal. Some fish such as Nenue, also called the gray chub, love the taste of limu over proteins like ika or shrimp.</p>
+                        </section>
                     </div>
-
-            </div>
+                    </div>
         </main>
 
         <footer>
             <p>Student Username: TraelCS</p>
             <p>&copy; Copyright 2026. All Rights Reserved.</p>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </body>
     
 </html>
