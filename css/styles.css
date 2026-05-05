@@ -19,7 +19,6 @@ html, body {
 }
 
 body {
-    background-color: blue;
     background-image: linear-gradient(#04415C, #57BAC7, #A9DEDE);
     background-attachment: fixed;
 }
@@ -81,24 +80,19 @@ h3 {
     font-weight: bold;
 }
 
-.font {
+#font {
     text-align: center;
 }
 
+/* Style rules for main */
 main {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
+    text-align: center;
 }
 
 /* Style rules for nav */
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 40px;
-}
-
 nav a {
     display: block;
     flex: 1;
@@ -124,20 +118,13 @@ nav li a {
     color: white;
 }
 
-/* Style rules for main */
-main {
-    text-align: center;
-}
-
-.home {
-    text-align: center;
-}
-
 /* Style rules for footer */
 footer {
     background-color: #A9DEDE;
     color: white;
     text-decoration: none;
+    text-align: center;
+    padding: 20px;
 }
 
 /* Media Query for Tablet Viewport */
