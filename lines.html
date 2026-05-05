@@ -10,41 +10,63 @@
     <head>
         <title>Fishing Gallery: Lines</title>
         <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <header>
-            <h1>Different Types of Lines</h1>
-        </header>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home Page</a></li>
-                <li><a href="baits.html">Different Types of Baits</a></li>
-                <li><a href="fish.html">Different Types of Fish</a></li>
-                <li><a href="rods.html">Different Types of Rods</a></li>
-                <li><a href="lines.html">Different Fishing Lines</a></li>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Fishing Gallery</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">    
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home Page</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="baits.html">Different Types of Baits</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="fish.html">Different Types of Fish</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="rods.html">Different Types of Rods</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="lines.html">Different Fishing Lines</a>
+                </li>
             </ul>
+            </div>
+            </div>
         </nav>
+        
+        <main class="color">
+            <div class="container mt-4">
+                <h1>Different Types of Lines</h1>
+                <div id="font">
 
-        <main>
-            
-            <div class="color">
-                
-                <div class="font">
-                    
-                    <img src="images/mono.jpg" alt="monofilament line" class="line">
-                    <h3>Monofilament</h3>
-                    <p>Monofilament is a popular, inexpensive fishing line made from a single strand of nylon, known for its high knot strength, buoyancy, and flexibility. While its stretch helps prevent hook pulls, it reduces sensitivity. It is ideal for topwater fishing due to its ability to float, though it degrades in UV light.</p>
-    
-                    <img src="images/braid.jpg" alt="close-up of braid line" class="line">
-                    <h3>Braided</h3>
-                    <p>Braided fishing line offers an incredibly high strength-to-diameter ratio, zero stretch, and high sensitivity, making it ideal for fishing in heavy cover and long-distance casting. Its lack of memory ensures smooth, long casts, while its durability allows for multiple seasons of use.</p>
-    
-                    <img src="images/fluoro.jpg" alt="fluorocarbon line" class="line">
-                    <h3>Fluorocarbon</h3>
-                    <p>Fluorocarbon line is a premium, high-density fishing line known for being nearly invisible underwater, extremely sensitive, and highly abrasion-resistant. It sinks faster than monofilament and has minimal stretch, making it ideal for deep-diving baits, jigs, and clear water. </p>
+                    <section>
+                        <img src="images/mono.jpg" alt="monofilament line" class="line">
+                        <h3>Monofilament</h3>
+                        <p>Monofilament is a popular, inexpensive fishing line made from a single strand of nylon, known for its high knot strength, buoyancy, and flexibility. While its stretch helps prevent hook pulls, it reduces sensitivity. It is ideal for topwater fishing due to its ability to float, though it degrades in UV light.</p>
+                    </section>
 
+                    <section>
+                        <img src="images/braid.jpg" alt="close-up of braid line" class="line">
+                        <h3>Braided</h3>
+                        <p>Braided fishing line offers an incredibly high strength-to-diameter ratio, zero stretch, and high sensitivity, making it ideal for fishing in heavy cover and long-distance casting. Its lack of memory ensures smooth, long casts, while its durability allows for multiple seasons of use.</p>
+                    </section>
+
+                    <section>
+                        <img src="images/fluoro.jpg" alt="fluorocarbon line" class="line">
+                        <h3>Fluorocarbon</h3>
+                        <p>Fluorocarbon line is a premium, high-density fishing line known for being nearly invisible underwater, extremely sensitive, and highly abrasion-resistant. It sinks faster than monofilament and has minimal stretch, making it ideal for deep-diving baits, jigs, and clear water. </p>
+                    </section>
             </div>
                 </div>
             
@@ -54,6 +76,7 @@
             <p>Student Username: TraelCS</p>
             <p>&copy; Copyright 2026. All Rights Reserved.</p>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </body>
     
 </html>
