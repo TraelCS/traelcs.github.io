@@ -11,23 +11,43 @@
         <title>Fishing Gallery</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <h1>Home Page</h1>
-        </header>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home Page</a></li>
-                <li><a href="baits.html">Different Types of Baits</a></li>
-                <li><a href="fish.html">Different Types of Fish</a></li>
-                <li><a href="rods.html">Different Types of Rods</a></li>
-                <li><a href="lines.html">Different Fishing Lines</a></li>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Fishing Gallery</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">    
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home Page</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="baits.html">Different Types of Baits</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="fish.html">Different Types of Fish</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="rods.html">Different Types of Rods</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="lines.html">Different Fishing Lines</a>
+                </li>
             </ul>
+            </div>
+            </div>
         </nav>
-
+        
         <main class="color">
+            <div class="container mt-4">
+                <h1>Home Page</h1>
             <div id="font">
 
                     <p>Welcome to my first ever website. On it, I want to go over different types of fish, lines, rods, and baits.</p>
@@ -35,9 +55,57 @@
                     <p>While I'm still new to the activity, I try to go fishing as often as possible.</p>
 
                     <img src="images/boat.jpg" alt="old man fishing in a boat" class="homeimg">
+
+                    <section id="video">
+                        <h2>Fishing Video</h2>
+
+                        <div class="ratio ratio-16x9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/uwerXJ_SjVc?si=te6410MxGJIUWJld" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </section>
                     
                     <p><b>Fishing:</b> the diverse, ancient practice of catching, harvesting, or trapping aquatic animals—primarily fish, but also crustaceans and mollusks—using various methods like angling, netting, or spearing, performed either commercially for livelihood or recreationally for sport and sustenance across oceans, rivers, and lakes.</p>
 
+                <section id="table">
+                    <h2>Fishing Overview</h2>
+
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>Example</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Fish</td>
+                                <td>Sea Chub (Nēnue)</td>
+                            </tr>
+                            <tr>
+                                <td>Bait</td>
+                                <td>Shrimp</td>
+                            </tr>
+                            <tr>
+                                <td>Rod Type</td>
+                                <td>Spinning Rod</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <section>
+                    <h2>Contact Form</h2>
+
+                    <form onsubmit="handleSubmit(event)">
+                        <input class="form-control mb-2" type="text" name="name" placeholder="Name" required>
+                        <input class="form-control mb-2" type="email" name="email" placeholder="Email" required>
+                        <button class="btn btn-primary">Submit</button>
+                    </form>
+
+                    <p id="formMessage"></p>
+                </section>
+
+            </div>
             </div>
         </main>
 
@@ -45,6 +113,14 @@
             <p>Student Username: TraelCS</p>
             <p>&copy; Copyright 2026. All Rights Reserved.</p>
         </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            function handleSubmit(event) {
+                event.preventDefault();
+                document.getElementById("formMessage").innerText = "Form submitted successfully!";
+            }
+        </script>
     </body>
     
 </html>
